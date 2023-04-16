@@ -5,36 +5,155 @@
     <link rel="icon" type="image/x-icon" href="assets/iconPic.png">
   </head>
     <body>
-      <h1> This is a Title </h1>
+      <header>
+        <h1>Meeting Minutes</h1>
+        <p>Posted by Justin</p>
+        <nav>
+          <a href="">Participants</a>
+          <a href="">Agenda</a>
+          <a href="">Meeting Summary</a>
+          <a href="">Meeting Recordings</a>
+          <a href="">Meeting Review Form</a>
+        </nav>
+        <hr>
+      </header>
 
-      <p> This is a paragraph </p>
+      <main>
 
-      <div class="attendence">
-        <p> Meeting Participants</p>
-        <ul>
-          <li>Barry Bonnet</li>
-          <li>Sally Sorensen</li>
-          <li>Lisa Lourde</li>
-          <li>Mike Marinx</li>
-        </ul>
-      </div>
+      <section>
+        <div class="attendence">
+           <details>
+            <summary><strong>Meeting Participants</strong></summary>
+            <p>
+              <ul>
+                <li>Barry Bonnet</li>
+                <li>Sally Sorensen</li>
+                <li>Lisa Lourde</li>
+                <li>Mike Marinx</li>
+              </ul>
+            </p>
+        </div>
+        <hr>
+      </section>
 
-      <div class="Meeting Agenda">
+      <section>
+        <div class="Meeting Agenda">
+          <details>
+            <summary><strong>Meeting Agenda</strong></summary>
+            <p>
+              <ol>
+                <li>Attendance</li>
+                <li>Previous Meeting Review</li>
+                <li>Progress Evaluation</li>
+                <li>Round-up</li>
+                <li>Snacks and Refreshments</li>
+              </ol>
+            </p>
+          </details>
+        </div>
+        <hr>
+      </section>
 
-        <ol>
-          <li>Attendance</li>
-          <li>Previous Meeting Review</li>
-          <li>Progress Evaluation</li>
-          <li>Round-up</li>
-          <li>Snacks and Refreshments</li>
-        </ol>
+       <section>
+        <div class="Meeting Summary">
+          <details>
+            <summary><strong>Meeting Summary</strong></summary>
+            <p>
+              <b>Overall</b>, the meeting was very effective. We were able to go over all the material needed, from the <i>inventory</i> to the <em>surplus</em>. We even addressed the <strong>elephant</strong> in the room, Mike's retirement.<br>
+              <p>
+                I'd consider this to be a successful meeting
+              </p> 
+              <p>
+                <strong>Images from Meeting:</strong><br>
+                 <img src="assets/img1.png" alt="Example Image 1"><br>
+                 <img src="assets/img2.jpg" alt="Example Image 2"><br>
+                 <img src="assets/img3.png" alt="Example Image 3"><br> 
+              </p>
+            </p>
+          </details>
+          
+        </div>
 
-      </div>
-      
+        <hr>
+      </section>
+
+      <section>
+        <div class="Meeting Recordings">
+          <details>
+            <summary><strong>Meeting Recordings</strong></summary>
+            <p>
+              <p>
+                <strong>Meeting Video Recording</strong><br>
+                <video width="320" height="240" controls>
+                  <source src="assets/exVid.mp4" type="video/mp4">
+                </video>
+              </p>
+
+              <p>
+                <strong>Meeting Audio Recording</strong><br>
+                <audio controls>
+                  <source src="assets/exAudio.mp3" type="audio/mpeg">
+                </audio>
+              </p>
+              
+            </p>
+          </details>
+          
+        </div>
+
+        <hr>
+      </section>
+
+      <section>
+        <div class="Meeting Review Form">
+          <details>
+            <summary><strong>Meeting Review Form</strong></summary>
+            <p>
+              <form>
+                <label for="firstName">First name:</label><br>
+                <input type="text" id="" name="firstName"><br>
+                <label for="lastName">Last name:</label><br>
+                <input type="text" id="lastName" name="lastName"><br>
+                <label for="attendance">Attended Meeting?</label>
+                <input type="checkbox"><br>
+                <label for="Comments">Comments on Meeting</label><br>
+                <textarea id="Comments"></textarea><br>
+                <label for="Rating">Scale of 1-10, how would you rank the meeting?</label><br>
+                <input list="Rating" id="Rating" name="Rating-Choice">
+                <datalist id="Rating">
+                  <option value="1">
+                  <option value="2">
+                  <option value="3">
+                  <option value="4">
+                  <option value="5">
+                  <option value="6">
+                  <option value="7">
+                  <option value="8">
+                  <option value="9">
+                  <option value="10">
+                </datalist><br>
+                <label for="Timeliness">Were you on time?</label><br>
+                <select name="Timeliness" id="Timeliness">
+                  <option value="early">Early</option>
+                  <option value="on time">On Time</option>
+                  <option value="late">Late</option>
+                </select><br>
+                <br><input type="submit">
+              </form>
+            </p>
+          </details>
+        </div>
+
+        <hr>
+      </section>
+
+      </main>
       
 
         
-
+      <footer>
+        <h3>Copyright Apple Pi Project Group</h3>
+      </footer>
 
     </body>
 </html>

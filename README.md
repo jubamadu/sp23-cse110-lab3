@@ -1,1 +1,1 @@
-https://jubamadu.github.io/Lab2_Starter/
+https://jubamadu.github.io/sp23-cse110-lab3

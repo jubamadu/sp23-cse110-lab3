@@ -1,9 +1,8 @@
 
 div * {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size:18px;
+  font-size:16px;
   color: rgb(4, 4, 19);
-  
   margin:5px;
   display: block;
   position: relative;
@@ -18,10 +17,8 @@ section {
   border-color:black;
   border-width: 1px;
   padding:10px;
-  max-width:600px;
-  min-width:300px;
-  min-height:30px;
-  min-width:400px;
+  width:92vw;
+  min-width:500px;
   position: relative;
   
 
@@ -29,9 +26,7 @@ section {
 img {
   width: 500px;
 }
-p * {
 
-}
 a:hover{
   color:red;
   background: yellow;
@@ -61,6 +56,7 @@ header, footer {
 
 footer{
   text-decoration: line-through;
+  font-family:monospace ;
 }
 
 
@@ -72,6 +68,46 @@ li {
 
 nav{
   padding: 15px;
-  margin: .25em;
-  
+  margin: .2em;
+  display:flex;
+  justify-content: center;
+  flex-grow: 4;
+  flex-wrap: nowrap;
+  align-items:flex-start;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+nav a{
+  padding-left:5px;
+  padding-right:5px;
+  align-self:auto;
+  flex-shrink: 1;
+  flex-grow: 2;
+}
+
+.MeetingRecordings{
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: 4;
+}
+
+.MeetingRecordings video{
+  grid-column-start: 1;
+  grid-column-end:1;
+  grid-row-start: 2;
+  grid-row-end:2;
+}
+
+.MeetingRecordings audio{
+  grid-column-start: 1;
+  grid-column-end:1;
+  grid-row-start: 4;
+  grid-row-end: span 4;
+}
+
+@media (max-width:1000px){
+  a:hover{
+    color:yellow;
+    background:black;
+  }
 }

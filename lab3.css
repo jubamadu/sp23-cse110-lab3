@@ -18,17 +18,29 @@ section {
   border-color:black;
   border-width: 1px;
   padding:10px;
-  max-width:400px;
+  max-width:600px;
   min-width:300px;
-  height:30px;
-  width:400px;
+  min-height:30px;
+  min-width:400px;
   position: relative;
   
 
 }
-
+img {
+  width: 500px;
+}
 p * {
 
+}
+a:hover{
+  color:red
+}
+
+#Comments{
+  min-width:200px;
+  min-height:100px;
+  max-width:500px;
+  max-height:300px;
 }
 
 header, footer {

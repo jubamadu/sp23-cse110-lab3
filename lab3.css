@@ -5,7 +5,7 @@ div * {
   color: rgb(4, 4, 19);
   
   margin:5px;
-  
+  display: block;
 }
 
 section {

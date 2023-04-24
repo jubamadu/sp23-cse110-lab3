@@ -111,3 +111,7 @@ nav a{
     background:black;
   }
 }
+
+a[href=""]:hover{
+  background-color: black;
+}

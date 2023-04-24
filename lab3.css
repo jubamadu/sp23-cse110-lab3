@@ -6,6 +6,7 @@ div * {
   
   margin:5px;
   display: block;
+  position: relative;
 }
 
 section {
@@ -17,10 +18,29 @@ section {
   border-color:black;
   border-width: 1px;
   padding:10px;
-}
+  max-width:600px;
+  min-width:300px;
+  min-height:30px;
+  min-width:400px;
+  position: relative;
+  
 
+}
+img {
+  width: 500px;
+}
 p * {
 
+}
+a:hover{
+  color:red
+}
+
+#Comments{
+  min-width:200px;
+  min-height:100px;
+  max-width:500px;
+  max-height:300px;
 }
 
 header, footer {
@@ -35,6 +55,7 @@ header, footer {
   margin-left:5px;
   margin-right:5px;
   text-align:center;
+  position: static;
 }
 
 footer{

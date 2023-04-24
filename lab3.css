@@ -34,12 +34,18 @@ header, footer {
   margin-bottom:5px;
   margin-left:5px;
   margin-right:5px;
+  text-align:center;
+}
+
+footer{
+  text-decoration: line-through;
 }
 
 
 li {
   font-size: .75em;
   padding: 1px 1px 4px 4px;
+  text-decoration: line-through;
 }
 
 nav{
